@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Projeto Soma</title>
+</head>
+<body>
+    <h1>ProjetoSoma</h1>
+    <br>
+    <label> valor 01: </label>
+    <input type=" text" id="n1">
+  
+    <label> valor 02:</label>
+    <input type="text" id="n2">
+  <br>
+  <button onclick="calcular()">Calcular</button>
+  
+  <h3 id="resultado"></h3>
+
+  <script>
+    function calcular(){
+    let v1 = Number(document.getElementById('n1').value)
+    let v2 = Number(document.getElementById('n2').value)
+    let total = v1 + v2
+    document.getElementById('resultado').innerHTML = total
+    }
+  </script>
+</body>
+</html>

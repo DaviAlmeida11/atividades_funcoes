@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FUNÇÃO</title>
+</head>
+<body>
+    <script>
+        function exibirMensagem(){
+            alert(`olá mundo`)
+        }
+        function calcularSubtracao(){
+            let num1 = parseInt(prompt("Digite um número"))
+            let num2 = parseInt(prompt("digite um númeero "))
+            
+            let total = num1 - num2 
+            console.log('O valor é: ' + total)
+        }
+        calcularSubtracao()
+
+        //criando função com parametro
+        function calcularSoma(valor1, valor2){
+           return valor1 + valor2 
+
+        console.log('A soma: ' + calcularSoma(7,7 ))
+        
+        }
+        
+        
+    </script>
+    
+</body>
+</html>
